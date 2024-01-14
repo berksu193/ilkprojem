@@ -1,11 +1,49 @@
-<htmel>
+<html>
   <head>
-    <little>Ana Sayfa</little>
+    <title>Ana sayfa</title>
+    <style>
+      .container { /* etiketler için grup oluşturur */
+        max-width: 1200px; /* maksimum genişlik */
+        margin: 0 auto; /* üst ve alttan 0 boşluk, sol ve sağdan otomatik (ortalar) */
+      }
+
+      header {
+        background-color: lightblue;
+        padding: 1rem;
+      }
+
+      section {
+        background-color: lightyellow;
+        padding: 1rem;
+      }
+
+      footer {
+        background-color: lightblue;
+        padding: 1rem;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>Ana Sayfa</h1>
-    <a href="hakkimda.html">hakkimda</a>
-    <p>Ana Sayfaya Hoşgeldiniz</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi nemo, iure quasi obcaecati dolor laudantium mollitia dolore odio doloremque in nostrum aspernatur velit! Neque maiores iure illum nisi quidem?</p>
+
+    <header class="container">
+      <nav>
+        <a href="index.html">Ana sayfa</a>
+        <a href="hakkimda.html">Hakkımda</a>
+      </nav>
+    </header>
+
+    <section class="container">
+      <h1>Ana sayfa</h1>
+      <a href="hakkimda.html"> Hakkımda </a>
+      
+      <p>Ana sayfaya hoş geldiniz..</p>
+    </section>
+
+    <footer class="container">
+      <p>Tasarım ve Kodlama: Hasan Tokatlı</p>
+    </footer>
+
+
   </body>
-</htmel>
+</html>
